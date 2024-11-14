@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vehicle Selection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vehicle.css">
+</head>
+<style>
+    /* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+ /* Body styling */
+ body {
+  background-color: #f4f4f4;
+  color: black;
+}
+ /* Style the header */
+ .header {
+  background-color: #b826260a;
+  padding: 30px;
+  text-align: center;color: black;
+  font-size: 35px;
+}
+
+
+.nav a{
+    background-color: #13c6d6;
+    
+}
+.nav-link {
+  margin: 0 15px;
+  color: #02617b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #00aaff;
+}
+
+/* Vehicle list styling */
+.vehicle-list ul {
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+}
+.vehicle-list li {
+  color: #444;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Main content layout */
+.row {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+/* Column styling */
+.column {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+.column h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #02617b;
+  color: #13c6d6;
+  text-align: center;
+  padding: 40px;
+}
+
+</style>
+<body>
+    <!-- Header section -->
+  <div class="header">
+    <nav>
+      <a class="nav-link" href="Home.html">Home</a>
+      <a class="nav-link" href="Vehicles.html">Vehicles</a>
+      <a class="nav-link" href="About us.html">About Us</a>
+      <a class="nav-link" href="Contact us.html">Contact Us</a>
+    </nav>
+    <h2>THE SINGULAR WORLD OF MERCEDES-AMG</h2>
+  </div>
+
+    <h2>OHK, TELL US WHAT YOU ARE LOOKING FOR.</h2>
+    <p>SELECT ANY OF THE VEHICLE TYPES BELOW...</p>
+  </header>
+
+  <main>
+    <section class="vehicle-list">
+      <ul>
+        <li>SUVS</li>
+        <li>SEDANS & WAGONS</li>
+        <li>CONVERTIBLES & ROADSTERS</li>
+        <li>ELECTRIC VEHICLE</li>
+        <li>ALL VEHICLES</li>
+        <li>FUTURE VEHICLES</li>
+        <li>CERTIFIED PRE-OWNED</li>
+      </ul>
+    </section>
+
+    <section class="model-gallery row">
+      <div class="column">
+        <h3>OUR MODELS - SUVS</h3>
+        <details>
+          <summary>View SUVs</summary>
+          <img src="IMAGES/car4.jpg" alt="SUVS" width="200" height="150">
+          <img src="IMAGES/BENZ 5.jpg" alt="SUVS" width="200" height="150">
+          <img src="IMAGES/SUVS3.jfif" alt="SUVS" width="200" height="150">
+          <img src="IMAGES/BENZ 6.jpg" alt="SUVS" width="200" height="150">
+        </details>
+      </div>
+
+      <div class="column">
+        <h3>OUR MODELS - WAGONS</h3>
+        <details>
+          <summary>View Wagons</summary>
+          <img src="IMAGES/car6.jpg" alt="WAGON 1" width="200" height="150">
+          <img src="IMAGES/car6.jpg" alt="WAGON 2" width="200" height="150">
+          <img src="IMAGES/WAGON3.jfif" alt="WAGON 3" width="200" height="150">
+          <img src="IMAGES/car10.jpg" alt="WAGON 4" width="200" height="150">
+        </details>
+      </div>
+      
+      <div class="column">
+        <h3>OUR MODELS - BENZ C-CLASS</h3>
+        <details>
+          <summary>View Benz C-Class</summary>
+          <img src="images/c1.jfif" alt="C-Class 1" width="200" height="150">
+          <img src="images/c2.jfif" alt="C-Class 2" width="200" height="150">
+          <img src="images/c3.jfif" alt="C-Class 3" width="200" height="150">
+          <img src="images/c4.jfif" alt="C-Class 4" width="200" height="150">
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Your-Vehicles Autoland | All rights reserved | Terms of service</p>
+  </footer>
+</body>
+</html>
